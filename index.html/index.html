@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <!--**************INPUT******************-->
+    <link rel="stylesheet" href="style/style.css">
+    <!--*****************VIEW****************-->
+    <link rel="stylesheet" href="style/view.css">
+</head>
+<body>
+<!--**************PRINT CV********************************-->
+       <div id="view" class="CV_view">
+      <div class="first-div">
+      <div class="picDiv"><img alt="" id="profile" class="pic">  </div>  
+     <div id="userName" class="h1"></div>
+      <p id="soneOf" class=""></p>
+       <h2 id="yourFather" class="h2"></h2>
+         <p id="homeAddress"></p>
+         <span id="emailLink"></span>
+      <a id="myEmail"></a>
+          <br>
+          <br>
+           <span id="contactNumber"></span>
+           <span id="myContect"></span>
+           <div class="hr">Hello</div> 
+            <div id="aspirationHeading"></div>   
+           <span id="myAspiration"></span>
+          <span id="academic" ></span>
+        <table>
+       <tr>
+       <th id="uDegree"></th>
+         <th id="University"></th> 
+          <th id="institut"></th>
+           <th id="uTrade"></th>
+            <th id="uDivision"></th>
+            <th id="pasYear"></th>        
+            </tr> 
+             <tr>
+              <th id="myDegree"></th>
+                <td id="boardName"></td>
+                 <td id="institutName"></td>
+                    <td id="myTrade"></td>
+                   <td id="yourDivision"></td>
+                  <td id="passingMe"></td>
+              </tr>
+             </table>
+             <div id="computerSkills"></div>
+               <span id="myComputer"></span>
+                  <div id="langId"></div>
+                   <span id="mothorLanguage"></span>
+                    <div id="projectHeading"></div> 
+                   <span class="project">
+                 <ul id="unOrderdList"></ul>      
+                  </span>
+                  <div class="myAddressStyle"><a id="myAddress"></a></div>
+                 </div>
+                </div>
+           <!--*******************CV DATA*******************************-->
+               <div class="show" id="form">
+              <form>
+             <div class="div1">    
+             <input type="text"  placeholder="Name" id="name1" size="40px">
+              <br>
+               <br>
+                <input type="text"  placeholder="Father's Name" id="fName" size="40px">
+                 <br>
+                  <br>
+                 <input type="text"  placeholder="Addrass" id="addrass" size="40px">
+               <br>
+              <br>
+            <input type="text" placeholder="Email" id="mail" size="40px">
+           <br>
+           <br>
+           <input type="text" placeholder="Contect" id="contect" size="40px"> <span id="errorOfNum"></span>
+            <br>
+              <br>
+                <input type="text" placeholder="Languages" size="40px" id="myLanguages">    
+                 <br>
+                <br>
+               <label>
+              <div class="text">EXPERIENCE</div>  
+              <textarea name=""  cols="30" rows="10" class="textarea" placeholder="Experience" id="userAspiration"></textarea>
+               </label>
+                <br>
+                 <br>
+               <div class="div2">
+              <label>
+            <div class="text">ACADEMIC.</div>
+          </label>
+         <input type="text" size="17px" class="input-space" placeholder="Degree" class="div2" id="degree"> 
+        <input type="text" size="17px" class="input-space" placeholder="Board / Uni.." id="boardOrUni">
+        <br>
+         <br>
+          <input type="text" size="17px" class="input-space" placeholder="Institutino" id="institutino"> 
+            <input type="text" size="17px" class="input-space" placeholder="Trade" id="trade">
+             <br>
+              <br>
+               <input type="text" size="17px" class="input-space" placeholder="Division" id="division"> 
+                <input type="text" size="17px" class="input-space" placeholder="Year" id="year" maxlength="4">
+                 </div>
+                <br>
+              <label>
+            <div class="text">COMPUTER SKILLS.</div>
+           </label>
+         <textarea cols="30" rows="10" class="textarea" placeholder="About Computer Skills" id="skillsOfCom"></textarea>
+        <br>
+       <br>
+       <label>
+       <div class="text">PROJECT LINK</div>
+        </label>               
+          <p id="aboutUserLink" class="aboutLinlPara">Enter your project link one by one</p>
+           <span class="liField">
+              <input type="text" id="proLink" placeholder="Project link" size="34px" class="liField">
+               <input type="button" value="Add" onClick="linkButton('proLink')" class="projectButton">
+                </span>
+                 <br>
+                  <br>
+                    <div>
+                    <div class="text">Photo</div>
+                    <input type="file" class="fiel" id="photo" onChange="encodeImageFileAsURL(this)">
+                  </div>
+                <br>
+               <br>
+             <span class="button"> 
+           <input type="button" value="Done" id="save" class="button"  onClick="firstPratOfData('name1','fName','addrass','mail','contect','userAspiration','degree','boardOrUni','institutino','trade','division','year','skills','photo')">
+         </span>    
+       </div>
+       </form>
+        </div>
+<!--*******************CV DATA*******************************-->
+    <script src="script/app.js"></script>
+</body>
+</html>

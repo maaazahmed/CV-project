@@ -1,0 +1,142 @@
+.div1{
+    border: solid gray  1px;
+    background-color: #efefef;
+    width: 35%;
+    text-align: center;
+    border-radius: 4px; 
+    margin: auto;
+    padding: 10px; 
+    padding-top: 28px;
+    line-height: 14px;
+    padding-bottom: 20px;
+    min-width:  30%;
+
+}
+
+
+input{
+    border-radius: 3px;
+    border-bottom: 1px solid #0A8670; 
+    border-top: none;
+    border-left:none;
+    border-right:  1px solid #0A8670;
+    padding: 4px;
+    background-color: #ffffff;
+    border-top-right-radius: 0px; 
+         
+}
+
+.textarea{
+    height: 37px; 
+    width: 308px;
+    border-radius: 3px;
+    border-bottom: 1px solid #0A8670; 
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid #0A8670;
+    margin: auto;
+    padding: 4px;
+    max-width:  340px;
+    max-height: 60px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    border-top-right-radius: 0px;
+
+      
+    
+}
+
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 12px;
+    padding-bottom: 8px;
+    text-decoration: underline;  
+    font-weight: bold;  
+    text-indent: 14px;
+    letter-spacing: 1px;
+    color: #0A8670;
+}
+
+
+.button{
+    background-color: #0A8670;   
+    text-align: center;
+    width: 40px;  
+    border-radius: 3px;
+   
+}
+
+.addButton{
+     background-color: #0A8670;   
+    text-align: center;
+    width: 35px;
+    border-radius: 3px;
+     border-radius: 3px;
+    border: 1px solid #0A8670; 
+    margin-top: px;
+    padding-bottom: 4px;
+     padding-top: 2px; 
+}
+
+.div1 :focus{
+    width: 320px;
+    box-shadow: #787878 2px 2px 2px ; 
+}
+
+
+.div2{
+    border-radius: 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 4px;
+   
+}
+
+
+.div2 :focus{
+    width: 160px;
+    
+
+}
+
+
+.button :focus {
+    background-color: #0DBF9F;
+    width: 45px;
+    box-shadow: inset 1px 1px 2px 0px #0A8670;
+    
+}
+
+.button:hover{
+    background-color: #0DBF9F;
+}
+
+.fiel{
+    border: solid #787878  1px;
+    margin-left: -115px; 
+    border-radius: 3px;
+    padding: 1px;
+    width: 200px;
+
+   
+}
+
+.fiel:focus{
+       width: 200px;
+       box-shadow: 0px 0px 0px;
+}
+
+.liField{
+    width: 265px;
+}
+
+
+.liField:focus {
+    width: 200;
+    max-width: 270px;
+}
+
+
